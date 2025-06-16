@@ -18,7 +18,7 @@ class Program
         else
         {
             // Mengambil jumlah hari dari array
-            int days = daysInMonth[month - 1];
+            int days = daysInMonth[month - 2];
             Console.WriteLine($"Jumlah hari dalam bulan {month} adalah {days} hari.");
         }
     }
